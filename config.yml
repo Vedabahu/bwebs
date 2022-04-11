@@ -1,7 +1,8 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://vedabahu.github.io/bwebs/'
 languageCode: en-us
 title: Acme Corporation
 theme: Electric
+enableRobotsTXT: true
 author: 
   facebook: "https://facebook.com"
   twitter: "https://twitter.com"
