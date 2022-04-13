@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "hugo server",
+			"cmd": ["hugo", "server", "-D"]
+		}
+	]
+}

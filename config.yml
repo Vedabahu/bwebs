@@ -11,6 +11,11 @@ author:
   location: India
   phone: (91) 90000 90000
 
+# markup :
+#   goldmark :
+#     renderer :
+#       unsafe : true
+
 menu:
   main:
     - identifier: about
@@ -35,10 +40,9 @@ params:
         all. Browse through our collection of various
         forms with different thicknesses and line styles.
         We shape the world. You live in it.
-
-
     - title: Recent Blog Posts
       recents: blog
       recentCount: 7
     - title: Contact Us
       contact: true
+    
