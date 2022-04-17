@@ -11,9 +11,8 @@ pool:
 
 steps:
   - script: |
-      snap install hugo --channel=extended
+      sudo snap install hugo --channel=extended
       echo install hugo complete
-      snap install git-ubuntu
       git clone https://github.com/Vedabahu/bwebs ./bwebs
       cd bwebs
       hugo
