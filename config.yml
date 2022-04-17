@@ -1,9 +1,11 @@
-baseURL: 'http://example.com'
+baseURL: "http://example.com"
 languageCode: en-us
 title: Acme Corporation
 theme: Electric
 enableRobotsTXT: true
-author: 
+enableGitInfo: true
+
+author:
   facebook: "https://facebook.com"
   twitter: "https://twitter.com"
   github: "https://github.com/Vedabahu"
@@ -28,9 +30,8 @@ menu:
       weight: 2
 
 params:
-  color: "#4f46e5"
   copyright: "Copyright &copy; 2022 Acme Corporation.
-    All Rights Reserved." 
+    All Rights Reserved."
   footer:
     - title: About
       content: >
@@ -45,4 +46,11 @@ params:
       recentCount: 7
     - title: Contact Us
       contact: true
-    
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+enableEmoji: true
