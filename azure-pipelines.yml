@@ -4,16 +4,19 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+  - master
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  - script: |
+      snap install hugo --channel=extended
+      echo install hugo complete
+      snap install git-ubuntu
+      git clone https://github.com/Vedabahu/bwebs ./bwebs
+      cd bwebs
+      hugo
+      cd public
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    displayName: "Install Hugo and do all the stuff"
