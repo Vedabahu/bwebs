@@ -5,9 +5,9 @@ date: 16 April, 2022
 keywords: ["About", "Acme corporation", "vadbahu", "shapes", "leading producer"]
 draft: false
 aliases:
-    - "about us"
-    - "abu"
-    - "au"
+  - "about us"
+  - "abu"
+  - "au"
 ---
 
 # About
